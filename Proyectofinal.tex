@@ -1,14 +1,16 @@
 \documentclass[a4paper,twocolumn,10pt]{article}
 \usepackage[utf8x]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish,es-tabla]{babel}
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
 \usepackage{flushend}
 \usepackage{multicol}
 \usepackage{multirow}
+\usepackage{xcolor,colortbl}
+\usepackage{setspace}
 \author{Brenda Romero Salcedo}
 \title{Proyecto final. Review Científico sobre VIH}
-\date{14 de Octubre de 2018}
+\date{16 de Octubre de 2018}
 \begin{document}
 \twocolumn[
 \begin{@twocolumnfalse}
@@ -17,70 +19,130 @@
 \vspace*{-1cm}
 \begin{center}\rule{0.9\textwidth}{0.1mm}\end{center}
 \begin{abstract}
-\normalsize Un artículo suele empezarse con un resumen. Dicho resumen debe ser claro y conciso, y no tiene que tener referencias bibliográficas. En inglés, abstract significa resumen, y resume significa reanudar. Cuidado no confundas esas dos palabras.\\ \\
-{\bfseries Palabras clave:} Manzana, Serpiente.
+\begin{quote}
+\normalsize La infección-enfermedad por VIH/SIDA es una afección crónica transmisible de tipo progresivo y causa viral, en la cual se establece una relación muy diversa entre huésped y virus, que finalmente condiciona la aparición de procesos morbosos oportunistas o tumores raros, o ambos\cite{Castillo2004}.
+El VIH/SIDA es una pandemia. A nivel mundial para el año 2002 se estimaba 3.1 millones de muertes por VIH/SIDA, 42 millones de adultos y niños viviendo con el VIH/SIDA y 5 millones de casos nuevos de infección por el VIH en estos grupos, de los cuales 150,000 corresponderían a América Latina\cite{LinaMariaVera2004}.En España hay aproximadamente 130.000 infectados por el VIH, lo que representa una prevalencia de infección de 2,7-3,7 casos por 1.000 habitantes, y se han notificado casi 80.000 casos de SIDA hasta el 30 de septiembre de 2010. En los nuevos diagnósticos de infección por el VIH, la transmisión en hombres que mantienen relaciones sexuales con hombres es la más frecuente, seguida de la heterosexual, y finamente la producida en usuarios de drogas inyectadas (UDI) \cite{Marco2012}.\\
+La neuropatía periférica es la complicación neurológica más frecuente en la infección por VIH \cite{Ferri2002}.  Las diferentes situaciones clínicas asociadas al VIH/sida, que se dan en el transcurso de la infección, aumentan considerablemente el riesgo de malnutrición y repercuten en el consumo, la digestión y el aprovechamiento de los alimentos \cite{Herrera2004}. \\ \\
+{\bfseries Palabras clave:} VIH, Infectados, Pandemia, Transmisión, Neuropatía, Malnutrición.
+\end{quote}
 \begin{center}\rule{0.9\textwidth}{0.1mm}\end{center}
 \vspace*{0.5cm}
 \end{abstract}
 \end{@twocolumnfalse}
 ]
 \section{Introducción}
-La melatonina o N-acetil-5-metoxitriptamina es una hormona encontrada en seres humanos, animales, plantas, hongos y bacterias, así como en algunas algas; en concentraciones que varían de acuerdo al ciclo diurno/nocturno. La melatonina es sintetizada a partir del aminoácido esencial triptófano. Se produce, principalmente, en la glándula pineal, y participa en una gran variedad de procesos celulares, neuroendocrinos y neurofisiológicos, como controlar el ciclo diario del sueño.
-%%%%%%%%%Introducir una imagen que ocupe ambas columnas%%%%%%%%%%%%%%%%%%%
-%\begin{figure*}[htb]
-%\centering
-%\includegraphics[width=1\textwidth]{./montblanc}
-%\caption{Mont Blanc.}
-%\label{fig:mont}
-%\end{figure*}
-%%%%%%%%%%%%Introducir una fórmula matemática%%%%%%%%%%%%%%%%%%%%%%%%%%
-%La ecuación de una recta en el plano cartesiano es de la forma
-%\begin{equation*}
-%ax+by+c=0
-%\end{equation*}
-%donde $a$, $b$, $c$ son constantes.
+El VIH/SIDA es una pandemia. Las estadísticas actuales muestran que los jóvenes entre 15 y 24 años son los más vulnerables. En Colombia, 7,497 jóvenes entre 10 y 30 años de edad viven con VIH/SIDA \cite{LinaMariaVera2004}. En España hay aproximadamente 130.000 infectados por el VIH, lo que representa una prevalencia de infección de 2,7-3,7 casos por 1.000 habitantes, y se han notificado casi 80.000 casos de SIDA hasta el 30 de septiembre de 2010. En el año 2009 se diagnosticaron 2.264 nuevos casos de infección, que suponen una tasa de 79,3/millón de habitantes, similar a la de países de nuestro entorno, como Francia, Bélgica o Irlanda, e inferior a las de Estonia, Letonia, Portugal y el Reino Unido, pero superior a la media del conjunto de países de la Unión Europea \cite{Marco2012}.A nivel mundial para el año 2002 se estimaba 3.1 millones de muertes por VIH/SIDA, 42 millones de adultos y niños viviendo con el VIH/SIDA y 5 millones de casos nuevos de infección por el VIH en estos grupos, de los cuales 150,000 corresponderían a América Latina \cite{LinaMariaVera2004}. \\ \\
+La infección-enfermedad por VIH/SIDA es una afección crónica transmisible de tipo progresivo y causa viral, en la cual se establece una relación muy diversa entre huésped y virus, que finalmente condiciona la aparición de procesos morbosos oportunistas o tumores raros, o ambos\cite{Castillo2004}. En los nuevos diagnósticos de infección por el VIH, la transmisión en hombres que mantienen relaciones sexuales con hombres es la más frecuente, seguida de la heterosexual, y finalmente la producida en usuarios de drogas inyectadas(UDI). Aunque en España, en los primeros años de la epidemia la infección por el VIH afectó mayoritariamente a los UDI, la disminución de nuevos casos en este colectivo viene ocurriendo desde la década de los noventa, probablemente por el menor uso de la vía endovenosa en los heroinómanos, por la extensión de los programas de tratamiento con metadona, por las campañas educativas, y por la menor incorporación de jóvenes al consumo de drogas inyectadas. La reducción de la transmisión del VIH en los UDI también se ha observado en el colectivo de los presos, que ha presentado importantes cambios sociológicos en los últimos años: modificación del patrón de consumo en drogodependientes españoles, con menor uso de la vía parenteral, y aumento de reclusos inmigrantes, que son generalmente menos UDI. Es muy posible que estos cambios sociológicos hayan supuesto importantes modificaciones en la prevalencia de infección por el VIH en población penitenciaria \cite{Marco2012}.
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.3\textwidth]{./VIH1}
+\caption {VIH \cite{Wikipedia2018}}
+\label{fig:VIH}
+\end{figure}
+\\ 
+El síndrome de la inmunodeficiencia adquirida (SIDA) es la última etapa clínica de la infección por el virus de la inmunodeficiencia humana (VIH), que se puede transmitir por vía sexual, por transfusión sanguínea y de la madre al hijo, ya sea durante el embarazo, el parto o la lactancia materna. A partir del momento en que el virus entra al cuerpo humano pueden pasar de dos semanas a tres meses antes de que apa- rezcan anticuerpos en su sangre. En promedio, la enfermedad tiene un período de incubación de diez años, lo que implica que una persona puede transmitir el virus sin saber que está infectada \cite{LinaMariaVera2004}. \\ \\
+La neuropatía periférica es la complicación neurológica más frecuente en la infección por VIH. Existe una correlación significativa entre otras complicaciones neurológicas de la infección por VIH y la presencia neuropatía periférica. Los estudios establecen una incidencia que varía entre el 35 y 17 de cada cien. Las diferentes situaciones clínicas asociadas al VIH/sida, que se dan en el transcurso de la infección, aumentan considerablemente el riesgo de malnutrición y repercuten en el consumo, la digestión y el aprovechamiento de los alimentos. Las infecciones en la boca y en el tracto digestivo, las náuseas o el vómito, la diarrea y la pérdida de peso son más tolerados con un buen estado nutricional \cite{Herrera2004}.
+\paragraph{Prevalencia}
+Según datos epidemiológicos, el número de casos anual oscila entre 3300 y 3500, la tasa de incidencia de nuevos casos es de 9-10 casos por cada 100.000 habitantes, superior a la media de la UE y EO, la prevalencia es de 4 de cada 1000 habitantes. El total de casos estimados en España es de 130.000-150.000 \cite{Molina2018}. 
+\begin{figure*}[htb]
+\centering
+\includegraphics[width=0.9\textwidth]{./sida}
+\caption{Mapa del VIH en España. \cite{Benito2014}}
+\label{fig:VIH}
+\end{figure*}
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline 
+{\cellcolor[gray]{0.7} \bfseries Personas} & {\cellcolor[gray]{0.7} \bfseries Frecuencia} \\ \hline 
+Hombre Sexo Hombre & 53,1 \\ \hline
+Heterosexual & 26,1 \\ \hline
+Inyección de drogras & 3,6 \\ \hline
+Transmisión vertical & 0,18 \\ \hline
+Nacidos fuera de España & 33,6 \\ \hline
+Mediana de edad & 36 \\ \hline
+Hombre & 83,9 \\ \hline
+Mujer & 16,1 \\ \hline 
+Total de diagnosticados & 3353 \\ \hline 
+\end{tabular}
+\caption{Prevalencia en España \cite{Molina2018}}
+\label{tabla:Prevalencia}
+\end{center}
+\end{table}
+\paragraph{Transmisión}
+Hasta hoy se han identificado 2 virus causantes de estaenfermedad: VIH-I y VIH-2. La Organización Mundial de la Salud reconoció 3 patrones epidemiológicos de infección por el VIH, que actualmente no se toman en cuenta, pues de forma general el número de infectados se ha incrementado en todas las áreas. La mortalidad por SIDA ha ido disminuyendo como consecuencia del progreso de la terapéutica antirretroviral y el empleo más racional de la quimiprofilaxis de las infecciones oportunistas que más inciden en estos pacientes. Las vías de transmisión descritas en toda la literatura son: vía sexual, uso de sangre y hemoderivados contaminados  y drogadicción \cite{Castillo2004}.
+\paragraph{Neuropatía} 
+A pesar de la alta tasa de incidencia y prevalencia, su diagnóstico y tratamiento a menudo son obviados. Son entidades que no ponen, generalmente, en peligro la vida, pero son generadoras de alta morbilidad \cite{Ferri2002}. \\ \\
+Existen al menos 6 patrones de manifestación de neuropatía periférica asociada a VIH: Polineuropatía simétrica distal, Polirradiculopatía progresiva, Mononeuropatía múltiple, Neuropatía autonómica, Síndrome de linfocitosis difusa infiltrante \cite{Ferri2002}.
+\paragraph{Malnutrición}
+Es vital desde el diagnóstico de la enfermedad asegurar una alimentación correcta y no esperar a que surja un problema que dé la alarma, como, por
+ejemplo, una pérdida de peso. Una nutrición adecuada es una condición necesaria para mantener un buen nivel de salud.Una buena nutrición tiene los siguientes objetivos\cite{Herrera2004}:
+\begin{itemize}
+\item{\mdseries \itshape Conservar o mejorar el estado nutricional}
+\item{\mdseries \itshape Mejorar la calidad de vida}
+\item{\mdseries \itshape Facilitar la recuperación de infecciones}
+\item{\mdseries \itshape Mejorar la tolerancia a la medicación}
+\end{itemize}
+\begin{table*}[htb]
+\begin{center}
+\begin{tabular}{|p{0.5\textwidth}|p{0.5\textwidth}|}
+\hline \hline
+{\cellcolor[gray]{0.7} \bfseries Alimentos recomendados} & {\cellcolor[gray]{0.7} \bfseries  Alimentos prohíbidos} \\ \hline \hline
+Tostadas, espaguetis, macarrones, pasta de sopa, arroz, patatas & Cereales integrales, garbanzos,lentejas, alubias \\ \hline
+Verduras cocidas en pequeña cantidad y mezcladas con otros alimentos & Verduras como plato y ensaladas \\ \hline
+Leche y derivados. Flan & Quesos secos\\ \hline
+Pollo, ternera, pescados, jamón dulce,embutido de pavo, tortilla francesa & Otras carnes y mariscos\\ \hline
+Raciones pequeñas de frutas & Naranja, melocotón, melón,
+sandía, limón \\ \hline
+Azúcar, mermelada, bollería, galletas & Pastelería, chocolate \\ \hline
+Condimentos de hierbas, cebolla,
+laurel & Pimienta, curry \\ \hline
+Infusiones de manzanilla, anís,
+café suave, té & Cerveza, bebidas alcohólicas
+y carbonatadas, café cargado\\ \hline
+\end{tabular}
+\caption{Alimentos recomendados para evitar la malnutrición. \cite{Herrera2004}}
+\label{tabla:Alimentos}
+\end{center}
+\end{table*}
 \section{Métodos}
-Una de las características más sobresaliente respecto a la biosíntesis pineal de melatonina es su variabilidad a lo largo del ciclo de 24 horas, y su respuesta precisa a cambios en la iluminación ambiental. Por ello, la melatonina se considera una neurohormona producida por los pinealocitos en la glándula pineal (localizada en el diencéfalo), la cual produce la hormona bajo la influencia del núcleo supraquiasmático del hipotálamo, que recibe información de la retina acerca de los patrones diarios de luz y oscuridad.
+Se hizo una revisión de una serie de artículos y libros relacionados con diversas investigaciones sobre la prevalencia \cite{Marco2012}, transmisión \cite{LinaMariaVera2004}, \cite{Sepulveda-Amor1995}, infección-transmisión \cite{Castillo2004}, trastornos como la neuropatía dolorosa \cite{Ferri2002} y la malnutrición \cite{Herrera2004}. 
 \section{Discusión}
-La glándula pineal de los humanos tiene un peso cercano a los 150 miligramos y ocupa la depresión entre el colículo superior y la parte posterior del cuerpo calloso. A pesar de la existencia de conexiones entre la glándula pineal y el cerebro, aquella se encuentra fuera de la barrera hematoencefálica; y está inervada principalmente por los nervios simpáticos que proceden de los ganglios cervicales superiores.
-En el Homo sapiens se produce una síntesis constante de melatonina que disminuye abruptamente hacia los 30 años de edad, a partir de la adolescencia suelen producirse calcificaciones en la glándula que reciben el nombre de corpora arenacea.1​ Se ha observado que la melatonina tiene, entre otras funciones, regular el reloj biológico y disminuir la oxidación. Los déficits de melatonina pueden ir acompañados de insomnio y depresión y podrían provocar una paulatina aceleración del envejecimiento.
-%%%%%%%%%%%%Introducir una tabla que ocupe una sola columna
-%\begin{table}[htb]
-%\centering
-%\begin{tabular}{|l|l|l|l|}
-%\hline
-%& \multicolumn{3}{c|}{Europa} \\
-%\cline{2-4}
-%& Ciudad & Río & Símbolo\\
-%\hline \hline
-%\multirow{3}{1cm}{España} & Madrid & Manzanares & Cibeles\\ \cline{2-4}
-%& Sevilla & Guadalquivir & Giralda\\ \cline{2-4}
-%& Zaragoza & Ebro & Pilar\\ \cline{1-4}
-%Francia & París & Sena & Torre Eiffel\\ \cline{1-4}
-%\multirow{2}{1cm}{Italia} & Roma & Tíber & San Pedro\\ \cline{2-4}
-%& Milán & \multicolumn{1}{c|}{-} & Duomo\\ \cline{1-4}
-%\end{tabular}
-%\caption{Tabla muy bonita.}
-%\label{tabla:final}
-%\end{table}
-%%%%%%%%%%%%%%%Introducir una tabla que ocupe ambas columnas
-%\begin{table*}[htb]
-%\centering
-%\begin{tabular}{p{0.2\textwidth} p{0.7\textwidth}}
-%\hline
-%Montaña & Descripción \\
-%\hline \hline
-%Monte Elbrus & Se encuentra en Rusia, muy cerca de Georgia. Es la montana más alta de Europa. \\
-%\hline
-%Mont Blanc & Se encuentra en la frontera entre Francia e Italia. Erróneamente, suele decirse que es la más alta de Europa. \\
-%\hline
-%\end{tabular}
-%\caption{Montañas.}
-%\label{tabla:montanas}
-%\end{table*}
+\
+Por otra parte, tras diversos análisis sobre la capacidad de transmisión del VIH en población universitaria, se puede afirmar que existe una baja proporción de conocimientos adecuados, muchos de ellos afirmaron no usar el preservativo en relaciones esporádicas, lo que contrasta con el alto grado de información existente sobre el uso del mismo, lo que repite en población escolar y menor de edad \cite{LinaMariaVera2004}. \
+Por otro lado, en investigaciones sobre la evolución de ésta epidemia pero asociado a las transfusiones, donaciones y recepción de hemoderivados, se obtiene que los primeros casos asociados con las mismas vienen siendo avisadas desde 1985, acumulándose un total de 1728 casos hasta 1994 siendo  las mujeres las más afectadas por esta forma de transmisión en México \cite{Sepulveda-Amor1995}. \\ \\
+Con respecto a la Neuropatía dolorosa, el problema en el uso de medicación junto con el tratamiento retroviral es importante, en cuanto, que la disminución de la eficacia de los retrovirales por interacción farmacológica ocasiona una progresión virológica de la enfermedad. El fármaco ideal es aquel que se una poco a proteínas, y por tanto no tenga una interacción en el locus de unión, ni se afecte por la hipoalbuminemia; y además que no produzca inducción de los citocromos P450, que en el caso de los inhibidores de las proteasas es donde ocurre su metabolismo. Es por ello que l tratamiento del dolor neuropático está en continuo proceso de cambio y renovación. Además se añade la gran variabilidad en la respuesta individual a los distintos grupos farmacológicos, e incluso a las distintas drogas del mismo grupo. El tratamiento enfocado al control de los síntomas en monoterapia con un agente bien escogido o en politerapia con una combinación de fármacos que actúen mediante distintos mecanismos, sería el tratamiento ideal.\\ \\
+Un hecho importante a tener en cuenta es la polimedicación de la que son objetos estos pacientes: retrovirales, en esquemas de terapia combinada; tratamientos profilácticos; tratamientos de la enfermedad o del contacto con la tuberculosis, etc \cite{Ferri2002}. \\ \\
+Finalmente, es evidente la relación entre la alimentación, la nutrición y el proceso de la enfermedad crónica. Tal es el caso de los pacientes con la infección por VIH (virus de inmunodeficiencia humana). La comunidad científica reconoce que los conocimientos y el cuidado nutricional pueden contribuir a mantener la salud y a paliar los efectos de una enfermedad crónica. Existe una demanda por parte tanto de los pacientes como de los profesionales implicados en su cuidado de que se les proporcione una información útil y científicamente validada. Hay que tener en cuenta que la alimentación, aunque sea la más cotidiana, desempeña un papel importante, aportando a los pacientes seropositivos paliativos específicos, en una situación que afecta a su salud, a su nutrición y a los efectos secundarios de su tratamiento \cite{Herrera2004}.
+\paragraph{Módelo Matemático sobre la Inmunología del VIH} 
+\begin{figure*}[htb]
+\centering
+\includegraphics[width=0.9\textwidth]{./sistemainmuneVIH}
+\caption{Reacción del sistema inmunitario ante el VIH. \cite{Kirschner1996}}
+\label{fig:sistemainmuneVIH}
+\end{figure*}
+El modelo está caracterizado por tres ecuaciones \cite{Kirschner1996}, las cuales se desarrollan a continuación, constituye una forma de cuantificación y de descripción de la reacción del sistema inmunitario ante la presencia del virus del VIH, lo que se puede observar en la figura 3. 
+\begin{center}
+\doublespacing
+{\itshape \underline{Ecuación 1:}} \\
+$dT(t)/dt = s(t)-\mu_TT(t)+ \\ 
+r(T(t)V(t))/(C+V(t))- K_VT(t)V(t),$ \\ 
+{\itshape \underline {Ecuación 2:}} \\
+$dT^i(t)/dt = K_vT(t)V(t)-\mu_T^iT^i(t)-\\
+r((T^i)(t)V(t))/(C+V(t)),$ \\
+{\itshape \underline {Ecuación 3:}} \\
+$dV(t)/dt=Nr(T^i(t)V(t))/C+V(t)-k_TT(t)V(t)+ \\
+(gvV(t)/b+V(t)). $ \\
+\end{center}
+{\itshape La Ecuación 1 representa la fuente de nuevas céĺulas T desde el Timo.  El virus puede infectar timocitos, se eligió una función que describe la fuente de decrecimiento en función de la carga viral. Se asume que la población de células T no infectadas se reduce a la mitad. A ésto le sigue una muerte natural de las células debido a que tienen un tiempo de vida finito. La media de vida se representa como \muT. El siguiente término representa la simulación de células T que proliferan gracias a la presencia del virus, r es nivel máximo de proliferación, y C es la mitad  de la constante de saturación durante el proceso. La idea es la siguiente, como está claro que tanto las células T CD8+ y CD4+ son específicas para el HIV serán directamente estimuladas. Una vez activadas, estimular células CD8+ y CD4+ , lo que podría ser o no específico al VIH. El último término representa la infección de células T CD4+ por el virus determinando el número total de encuentrso de células T con el virus, supuesto en un nivel constante definido como kV. 
+Basándonos en el gran número de células y de viriones involucrados, asumimos que el Principio de Acción de Masas se aplicará también aquí \cite{Kirschner1996}.\\ \\
+En la Ecuación 2 se describe el cambio en la población de células T CD4+. El 1º término , ganancias de Ti , supone una pérdida en la Ecuación 1. Por tanto, las células infectadas que se pierden tienen una longitud finita de vida al tiempo  que son estimuladas a proliferar, las cuales son destruidas durante el proceso de proliferación por el estallido de la carga vírica \cite{Kirschner1996}. \\ \\
+En la Ecuacuión 3, El 1º y 3º término corresponde con la "causa" de la población de células víricas. Los viriones son liberados gracias al estallido de las células T CD4+ (como se observa en la Ecuación 2), descrita por el 1º término, en el que la media de N partículas son liberadas por cada célula infectada. El 3º término corresponde con el crecimiento del virus a partir de otras células infectadas, tales como macrófafos y timocitos infectados. El nivel de crecimiento del proceso es gV, y la mitad de la constante de saturación es b, término que también cuantifica la muerte natural del virus. El 2º término es la pérdida de respuesta inmune específica; como por ejemplo, células T CD8+ mantando virus; término de "acción masiva" con un nivel kT \cite{Kirschner1996}.}
 \section{Conclusión}
-En 1917 se observó in vitro que extractos de glándula pineal producían un aclaramiento en la piel de sapo. A finales de los 50, Lerner y colaboradores aislaron la hormona pineal a partir de pinealocitos bovinos y describieron su estructura química: 5-metoxi-N-acetiltriptamina (melatonina). Si bien durante mucho tiempo se consideró que la melatonina era de origen exclusivamente cerebral, se ha demostrado la biosíntesis del metoxindol en otros tejidos como la retina, la glándula harderiana, el hígado, el intestino, los riñones, las glandulas suprarrenales, el timo, la glándula tiroides, las células inmunes, el páncreas, los ovarios, el cuerpo carotídeo, la placenta y el endometrio.
-En el Homo sapiens se produce una síntesis constante de melatonina que disminuye abruptamente hacia los 30 años de edad, a partir de la adolescencia suelen producirse calcificaciones en la glándula que reciben el nombre de corpora arenacea.1​ Se ha observado que la melatonina tiene, entre otras funciones, regular el reloj biológico y disminuir la oxidación. Los déficits de melatonina pueden ir acompañados de insomnio y depresión y podrían provocar una paulatina aceleración del envejecimiento.
+\ En consideración con la prevalencia de infección por VIH, y su relación con los factores que se asocian con los presos en España, se concluye que Las prisiones finalmente pueden jugar un papel importante –epidemiológico, económico, clínico y  terapéutico– mediante la identificación de individuos infectados por VIH sin diagnosticar. Se calcula que en la UE este grupo puede representar el 30 de cada 65 de todos los infectados. Las recomendaciones del Centro Europeo para el Control de Enfermedades (ECDC) consideran a la Sanidad Penitenciaria un elemento esencial de los programas nacionales dirigidos a expandir la prueba del VIH y reducir el diagnóstico tardío. En las prisiones de España la serología VIH se oferta desde finales de los años ochenta, de forma gratuita, voluntaria y confidencial, a todos los ingresados. Procede, por consiguiente, no bajar la guardia y continuar recomendando un completo estudio de todos los ingresados, con especial dedicación a los mayores de 40 años, a los UDI y a los infectados por
+VHB y/o por VHC como los grupos más vulnerables de haber adquirido el VIH en los internados de prisión. \cite{Marco2012}\\ \\
+Por otra parte, ciertos estudios relacionados con la transmisión sugieren que la población universitaria requiere de la realización de programas de capacitación en educación sexual y prevención de la infección por VIH, que refuercen la información recibida desde edades más tempranas, en concordancia con los compromisos establecidos en la Asamblea  General de las Naciones Unidas sobre el VIH/SIDA celebrada en junio del 2001 \cite{LinaMariaVera2004}. No obstante, el mayor avance en prevención, en el  caso de México, se ha dado gracias al filtrado de las donaciones de sangre. \\ \\
+En lo que respecta al tándem alimentación-nutrición efectuado de una forma correcta contribuye a mantener y/o mejorar la situación nutricional del paciente, a prevenir su deterioro y a paliar los síntomas que pueden aparecer en el desarrollo de su enfermedad, obteniendo así una mejora considerable de su calidad de vida \cite{Herrera2004}.
 \bibliographystyle{plain}
 \bibliography{bibliografia}@Article{•,
 author = {•},
